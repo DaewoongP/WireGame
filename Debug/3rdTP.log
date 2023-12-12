@@ -1,0 +1,27 @@
+﻿  stdafx.cpp
+  Wire.cpp
+  Teemo.cpp
+  Stage1.cpp
+c:\users\msi\desktop\jusin\4_d2d\3rdtp\3rdtp\stage1.cpp(82): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Spike.cpp
+  SoundMgr.cpp
+  ScrollMgr.cpp
+  SceneMgr.cpp
+  Scene.cpp
+  Player.cpp
+  Obj.cpp
+  MyBitmap.cpp
+  MapMgr.cpp
+  MainGame.cpp
+  LineMgr.cpp
+  Line.cpp
+  KeyMgr.cpp
+  CollisionMgr.cpp
+  Brick.cpp
+c:\users\msi\desktop\jusin\4_d2d\3rdtp\3rdtp\brick.cpp(35): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\msi\desktop\jusin\4_d2d\3rdtp\3rdtp\brick.cpp(36): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BitmapMgr.cpp
+  3rdTP.cpp
+  코드를 생성하고 있습니다...
+  3rdTP.vcxproj -> C:\Users\msi\Desktop\jusin\4_D2D\3rdTP\Debug\3rdTP.exe
+  3rdTP.vcxproj -> C:\Users\msi\Desktop\jusin\4_D2D\3rdTP\Debug\3rdTP.pdb (Full PDB)

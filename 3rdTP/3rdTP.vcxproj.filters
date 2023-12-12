@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{e31c97d4-c36f-4350-8f81-61bcd24f2a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{e9da447a-e8d3-4317-88e5-1e3754975087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{c11da957-8501-494d-abfe-d0d2407b3242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{4ae31c77-3db2-4efc-bbd0-11867714c275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Brick">
+      <UniqueIdentifier>{c3bda028-427c-49c7-99e2-2bdff9d7a4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Wire">
+      <UniqueIdentifier>{a5aad836-bffd-4a24-90f5-8ea3ddd48aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Spike">
+      <UniqueIdentifier>{43430e5a-a72d-4c43-b096-549d32f95406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Teemo">
+      <UniqueIdentifier>{b876b5d3-ab0c-41b7-b754-9198f7292353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{a621d074-0712-440d-88d4-3e869291fe21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\Stage1">
+      <UniqueIdentifier>{404e8bce-851e-4a74-9c91-9939f43f8819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design">
+      <UniqueIdentifier>{9ba2a381-e709-4351-82e2-03b36355c8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\AbstractFactory">
+      <UniqueIdentifier>{ae4526b7-608a-4ee1-b265-dacead9d5ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\SceneMgr">
+      <UniqueIdentifier>{46e8f3c7-4baa-4875-afbf-7cf4517244f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\BitmapMgr">
+      <UniqueIdentifier>{47971503-1abd-4998-96d8-22d6738e619d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\CollMgr">
+      <UniqueIdentifier>{fe182cc8-64a8-4f9d-bb8b-010785f4fb06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\ScrollMgr">
+      <UniqueIdentifier>{5c6efb00-d2f7-4e19-91a8-f16b44ded084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\SoundMgr">
+      <UniqueIdentifier>{51b498cd-d25c-428d-95ed-6f3ae482bd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\KeyMgr">
+      <UniqueIdentifier>{6a18fd0e-0e17-45d5-81f0-66227c9eb048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\LineMgr">
+      <UniqueIdentifier>{0d61ded6-399d-4024-a8fb-ee4e964c93a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\LineMgr\Line">
+      <UniqueIdentifier>{5d55f5e0-3e84-4769-ad96-9c2f8c2ae5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\MapMgr">
+      <UniqueIdentifier>{161bb83b-7230-430d-859b-3e2164e7f58e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdTP.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>03. Design\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03. Design\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>02. Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapMgr.h">
+      <Filter>03. Design\BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmap.h">
+      <Filter>03. Design\BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>03. Design\ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03. Design\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>01. Obj\01. Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Wire.h">
+      <Filter>01. Obj\02. Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03. Design\CollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>03. Design\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>03. Design\LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>03. Design\LineMgr\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Spike.h">
+      <Filter>01. Obj\03. Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="Teemo.h">
+      <Filter>01. Obj\04. Teemo</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMgr.h">
+      <Filter>03. Design\MapMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rdTP.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03. Design\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>02. Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapMgr.cpp">
+      <Filter>03. Design\BitmapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmap.cpp">
+      <Filter>03. Design\BitmapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>03. Design\ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03. Design\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>01. Obj\01. Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Wire.cpp">
+      <Filter>01. Obj\02. Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03. Design\CollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>03. Design\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>03. Design\LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>03. Design\LineMgr\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Spike.cpp">
+      <Filter>01. Obj\03. Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="Teemo.cpp">
+      <Filter>01. Obj\04. Teemo</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMgr.cpp">
+      <Filter>03. Design\MapMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3rdTP.rc">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="3rdTP.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
